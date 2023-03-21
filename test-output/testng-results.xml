@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-21T08:57:50 IST" name="Default suite" finished-at="2023-03-21T08:57:50 IST" duration-ms="80">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T08:57:50 IST" name="Default test" finished-at="2023-03-21T08:57:50 IST" duration-ms="80">
+      <class name="com.demoTest.TestNGArun">
+        <test-method signature="College()[pri:-1, instance:com.demoTest.TestNGArun@2cd2a21f]" started-at="2023-03-21T08:57:50 IST" name="College" finished-at="2023-03-21T08:57:50 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- College -->
+        <test-method signature="highSchool()[pri:0, instance:com.demoTest.TestNGArun@2cd2a21f]" started-at="2023-03-21T08:57:50 IST" name="highSchool" finished-at="2023-03-21T08:57:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highSchool -->
+        <test-method signature="Company()[pri:1, instance:com.demoTest.TestNGArun@2cd2a21f]" started-at="2023-03-21T08:57:50 IST" name="Company" finished-at="2023-03-21T08:57:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Company -->
+      </class> <!-- com.demoTest.TestNGArun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

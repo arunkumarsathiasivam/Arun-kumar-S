@@ -18,8 +18,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import okio.Timeout;
-
 public class Base_class {
 	
 	public static WebDriver driver;
@@ -186,6 +184,5 @@ public class Base_class {
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		File des = new File("C:\\Users\\LENOVO\\eclipse-workspace\\MiniProjectArun\\ScreenshotMaven\\"+s+".png");
 		FileUtils.copyFile(src, des);
-    }
-    
+    } 
 }

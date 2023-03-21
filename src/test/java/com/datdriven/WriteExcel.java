@@ -16,7 +16,7 @@ public class WriteExcel {
 		FileInputStream fis = new FileInputStream(f);
         Workbook wb = new XSSFWorkbook(fis);
         
-        wb.createSheet("Sheet1").createRow(0).createCell(0).setCellValue("EMP ID");
+       // wb.createSheet("Sheet1").createRow(0).createCell(0).setCellValue("EMP ID");
         wb.getSheet("Sheet1").getRow(0).createCell(1).setCellValue("DEPT");
         wb.getSheet("Sheet1").createRow(1).createCell(0).setCellValue("001");	
         wb.getSheet("Sheet1").createRow(2).createCell(0).setCellValue("002");
